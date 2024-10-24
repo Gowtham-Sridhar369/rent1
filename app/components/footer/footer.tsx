@@ -174,7 +174,7 @@ export default function App() {
               Rentzy
             </h6>
             <p>
-            "Rentzy is your go-to platform for easy and reliable rentals. We offer a wide selection of properties and items, prioritizing convenience and affordability. With a focus on transparent transactions, we make renting simple and hassle-free."</p>
+            Rentzy is your go-to platform for easy and reliable rentals. We offer a wide selection of properties and items, prioritizing convenience and affordability. With a focus on transparent transactions, we make renting simple and hassle-free.</p>
           </div>
           {/* <!-- Products section --> */}
           <div className="">
@@ -299,7 +299,7 @@ export default function App() {
         <a
           className="font-semibold text-neutral-600 dark:text-neutral-400"
           href="https://github.com/shreyashkadam/rentpal"
-        >RENTPAL</a>
+        >RENTZY</a>
       </div>
     </footer>
   );
