@@ -171,11 +171,10 @@ export default function App() {
                 <path
                   d="M12.378 1.602a.75.75 0 00-.756 0L3 6.632l9 5.25 9-5.25-8.622-5.03zM21.75 7.93l-9 5.25v9l8.628-5.032a.75.75 0 00.372-.648V7.93zM11.25 22.18v-9l-9-5.25v8.57a.75.75 0 00.372.648l8.628 5.033z" />
               </svg>
-              RentPal PVT Ltd
+              Rentzy
             </h6>
             <p>
-            Introducing an innovative web application that allows users to rent anything they need with ease. The platform is built with the latest technologies, ensuring a seamless and user-friendly experience.
-            </p>
+            "Rentzy is your go-to platform for easy and reliable rentals. We offer a wide selection of properties and items, prioritizing convenience and affordability. With a focus on transparent transactions, we make renting simple and hassle-free."</p>
           </div>
           {/* <!-- Products section --> */}
           <div className="">
