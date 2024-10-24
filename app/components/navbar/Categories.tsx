@@ -17,7 +17,7 @@ import {
   BiCar
 } from 'react-icons/bi'
 
-import { IoDiamond } from "react-icons/io5";
+
 
 import CategoryBox from "../CategoryBox";
 import Container from '../Container';
@@ -25,7 +25,7 @@ import Container from '../Container';
 
 export const categories = [
   {
-    label: 'Party and Events',
+    label: 'Furniture',
     icon: BiParty,
     description: 'Barbecue, Chairs & Sofas, Decoration, Food Booths, Lighting equipment, Tables, Tents, etc.',
   },
@@ -40,9 +40,9 @@ export const categories = [
     description: ' Photography Accesories, Cameras, Lens, Batteries, Case, etc.'
   },
   {
-    label: 'Music',
+    label: 'Appliance',
     icon: GiMusicalNotes,
-    description: 'Music Accessories, Music Players, Musical Instruments, Sound Equipments, etc.'
+    description: 'Appliances.'
   },
   {
     label: 'Clothing',
@@ -74,11 +74,7 @@ export const categories = [
     icon: GiWeightLiftingUp,
     description: 'Gym Equipments, Massage chairs, Steamer, etc.'
   },
-  {
-    label: 'Lux',
-    icon: IoDiamond,
-    description: 'watches, accessories, bracelet etc.'
-  },
+  
 ]
 
 const Categories = () => {

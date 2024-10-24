@@ -186,7 +186,7 @@ export default function App() {
             <p className="mb-4">
               <a className="text-white-600 dark:text-white-200"
               href='https://rentpal.vercel.app/?category=Party%20and%20Events'
-              >Party & Events</a>
+              >Furniture</a>
             </p>
             <p className="mb-4">
               <a className="text-white-600 dark:text-white-200"
@@ -201,7 +201,7 @@ export default function App() {
             <p>
               <a className="text-white-600 dark:text-white-200"
               href='https://rentpal.vercel.app/?category=Music'
-              >Music</a>
+              >Appliance</a>
             </p>
             
           </div>
@@ -214,7 +214,7 @@ export default function App() {
             <p className="mb-4">
               <a className="text-white-600 dark:text-white-200"
               href='https://rentpal.vercel.app/?category=Kitchen'
-              >Kithcen</a>
+              >Kitchen</a>
             </p>
             <p className="mb-4">
               <a className="text-white-600 dark:text-white-200"
@@ -262,7 +262,7 @@ export default function App() {
                 <path
                   d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
               </svg>
-              gowthamcr786@gmail.com
+              abc@gmail.com
             </p>
             <p className="mb-4 flex items-center justify-center md:justify-start">
               <svg
