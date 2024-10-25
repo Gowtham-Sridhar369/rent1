@@ -28,7 +28,7 @@ const UserMenu: React.FC<UserMenuProps> = ({ currentUser }) => {
 
   const toggleOpen = useCallback(() => {
     setIsOpen((value) => !value);
-  }, []);
+  }, []); 
 
   const onRent = useCallback(() => {
     if (!currentUser) {
@@ -58,7 +58,7 @@ const UserMenu: React.FC<UserMenuProps> = ({ currentUser }) => {
             shadow-md
           "
         >
-          Rent your stuff
+          Rentzy your stuff
         </div>
         <div
           onClick={toggleOpen}
@@ -120,7 +120,7 @@ const UserMenu: React.FC<UserMenuProps> = ({ currentUser }) => {
                   label="My properties"
                   onClick={() => router.push("/properties")}
                 />
-                <MenuItem label="Rent your stuff" onClick={rentModal.onOpen} />
+                <MenuItem label="Rentzy your stuff" onClick={rentModal.onOpen} />
                 <hr />
                 <MenuItem label="Logout" onClick={() => signOut()} />
               </>

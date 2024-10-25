@@ -212,8 +212,8 @@ export default function App() {
             </h6>
             <p className="mb-4">
               <a className="text-white-600 dark:text-white-200"
-              href='https://rentpal.vercel.app/?category=Kitchen'
-              >Kitchen</a>
+              href='https://rentpal.vercel.app/?category=Furniture'
+              >Furniture</a>
             </p>
             <p className="mb-4">
               <a className="text-white-600 dark:text-white-200"
