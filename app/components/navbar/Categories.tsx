@@ -3,15 +3,16 @@
 import { usePathname, useSearchParams } from 'next/navigation';
 import { 
   GiGamepad,
-  GiMusicalNotes,
+  GiSofa,
   GiClothes,
   GiKitchenKnives,
   GiWeightLiftingUp,
+  GiWashingMachine,
   
 } from 'react-icons/gi';
 import { MdOutlineDevicesOther} from 'react-icons/md';
 import {
-  BiParty,
+ 
   BiCamera,
   BiBook,
   BiCar
@@ -26,7 +27,7 @@ import Container from '../Container';
 export const categories = [
   {
     label: 'Furniture',
-    icon: BiParty,
+    icon: GiSofa,
     description: 'Barbecue, Chairs & Sofas, Decoration, Food Booths, Lighting equipment, Tables, Tents, etc.',
   },
   {
@@ -41,7 +42,7 @@ export const categories = [
   },
   {
     label: 'Appliance',
-    icon: GiMusicalNotes,
+    icon: GiWashingMachine,
     description: 'Appliances.'
   },
   {
