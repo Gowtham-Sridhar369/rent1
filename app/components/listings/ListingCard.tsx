@@ -80,29 +80,34 @@ const ListingCard: React.FC<ListingCardProps> = ({
         <div
           className="
             aspect-square 
+            h-full
             w-full 
             relative 
             overflow-hidden 
             rounded-xl
+            mt-8
           "
         >
           <Image
             fill
+            alt="Listing"
+            src={data.imageSrc}
             className="
               object-cover 
               h-full 
               w-full 
               group-hover:scale-110 
               transition
-            "
-            src={data.imageSrc}
-            alt="Listing"
+            
+              
+            " 
           />
           <div
             className="
             absolute
-            top-3
+            top-5
             right-3
+            
           "
           >
             <HeartButton listingId={data.id} currentUser={currentUser} />
@@ -134,7 +139,7 @@ const ListingCard: React.FC<ListingCardProps> = ({
         )}
 
         <div className="flex flex-row items-center gap-1">
-          <div className="font-semibold">$ {price}</div>
+          <div className="font-semibold">Rs {price}</div>
           {!reservation && <div className="font-light">day</div>}
         </div>
         {onAction && actionLabel && (
